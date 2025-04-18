@@ -69,15 +69,15 @@ The app will open in your browser at http://localhost:8501.
 ## 📸 UI Preview
 
 ## 🧠 How It Works
-Upload resumes (PDF/DOCX).
+- Upload resumes (PDF/DOCX).
 
-Paste the job description in the input field.
+- Paste the job description in the input field.
 
-Click "Match Resumes".
+- Click "Match Resumes".
 
-The LLM compares each resume against the job description and assigns a score.
+- The LLM compares each resume against the job description and assigns a score.
 
-Results are displayed and also sent to your n8n automation pipeline.
+- Results are displayed and also sent to your n8n automation pipeline.
 
 ## ✅ To-Do / Improvements
 -  Add CSV export of match results.
