@@ -39,36 +39,42 @@ README.md          # You're here!
 
 ## 🛠️ Setup Instructions
 1. Clone the Repository
+```   
 bash
 Copy
 Edit
 git clone https://github.com/your-username/resume-matcher.git
 cd resume-matcher
-2. Install Dependencies
+```
+3. Install Dependencies
 Create a virtual environment and install the required packages:
 
+```
 bash
 Copy
 Edit
 pip install -r requirements.txt
+```
 3. Environment Configuration
 Create a .env file in the root directory and add your credentials:
-
+```
 env
 Copy
 Edit
 GROQ_API_KEY=your_groq_api_key
 N8N_WEBHOOK_URL=https://your-n8n-instance/webhook/your-path
-⚠️ Never expose your API keys in the codebase.
+```
+## ⚠️ Never expose your API keys in the codebase.
 
 4. Run the App
+```   
 bash
 Copy
 Edit
 streamlit run app.py
 The app will open in your browser at http://localhost:8501.
-
-📸 UI Preview
+```
+## 📸 UI Preview
 
 ## 🧠 How It Works
 Upload resumes (PDF/DOCX).
@@ -90,13 +96,13 @@ Results are displayed and also sent to your n8n automation pipeline.
 
  Integrate authentication for admin access.
 
-🤝 Contributing
+## 🤝 Contributing
 Pull requests are welcome! Feel free to suggest features, report bugs, or fork for your own use case.
 
-📄 License
+## 📄 License
 MIT License. See LICENSE file for details.
 
-📬 Contact
+## 📬 Contact
 Project Maintainer: Your Name
 
 LinkedIn: linkedin.com/in/your-profile
