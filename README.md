@@ -40,9 +40,7 @@ README.md          # You're here!
 ## 🛠️ Setup Instructions
 1. Clone the Repository
 ```   
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/resume-matcher.git
 cd resume-matcher
 ```
@@ -50,17 +48,13 @@ cd resume-matcher
 Create a virtual environment and install the required packages:
 
 ```
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 ```
 3. Environment Configuration
 Create a .env file in the root directory and add your credentials:
 ```
-env
-Copy
-Edit
+
 GROQ_API_KEY=your_groq_api_key
 N8N_WEBHOOK_URL=https://your-n8n-instance/webhook/your-path
 ```
@@ -68,9 +62,7 @@ N8N_WEBHOOK_URL=https://your-n8n-instance/webhook/your-path
 
 4. Run the App
 ```   
-bash
-Copy
-Edit
+
 streamlit run app.py
 The app will open in your browser at http://localhost:8501.
 ```
@@ -88,13 +80,13 @@ The LLM compares each resume against the job description and assigns a score.
 Results are displayed and also sent to your n8n automation pipeline.
 
 ## ✅ To-Do / Improvements
- Add CSV export of match results.
+-  Add CSV export of match results.
 
- Show extracted resume highlights and keywords.
+-  Show extracted resume highlights and keywords.
 
- Add advanced prompt tuning interface.
+ - Add advanced prompt tuning interface.
 
- Integrate authentication for admin access.
+- Integrate authentication for admin access.
 
 ## 🤝 Contributing
 Pull requests are welcome! Feel free to suggest features, report bugs, or fork for your own use case.
@@ -103,7 +95,7 @@ Pull requests are welcome! Feel free to suggest features, report bugs, or fork f
 MIT License. See LICENSE file for details.
 
 ## 📬 Contact
-Project Maintainer: Your Name
+Project Maintainer: **Biswajeet Dixit**
 
-LinkedIn: linkedin.com/in/your-profile
+LinkedIn: https://www.linkedin.com/in/biswajeet-dixit-047015261/
 
